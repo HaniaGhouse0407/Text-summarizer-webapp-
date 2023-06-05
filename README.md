@@ -1,9 +1,24 @@
-# Text-summarizer-webapp-
 
-The above project is a text summarizer web app built using Flask and the Hugging Face's BERT Tokenizer model, specifically the "paraphrase-MiniLM-L6-v2" model. Text summarization is the process of generating a concise and coherent summary of a given text. In this project, we leverage the power of Hugging Face's BERT-based model, which has been pre-trained on a large corpus of text data.
 
-The web app allows users to input a piece of text, such as an article or a document, and then generates a summary of that text using the BERT Tokenizer model. The summarization process involves understanding the context and important information from the input text and generating a condensed version that captures the main points.
+# Text Summarizer Web App
 
-Flask, a popular Python web framework, is used to create the web app. It handles the routing and serves as the backend for the application. When a user submits a text, Flask processes the request and sends it to the BERT Tokenizer model for summarization. The model then generates a summary, which is returned to the user through the web app interface.
+This is a web application built using Flask and the Hugging Face's BERT Tokenizer model, specifically the "paraphrase-MiniLM-L6-v2" model. The app aims to provide text summarization functionality by generating concise summaries of given input texts.
 
-By leveraging Hugging Face's BERT Tokenizer model and Flask, this project provides an easy-to-use and accessible way for users to summarize their texts. It can be useful for a variety of applications, such as quickly extracting key information from lengthy articles or generating brief summaries of documents.
+**Please note that this project is currently a work in progress. Future updates and improvements are being actively made.**
+
+## Project Status
+
+As of now, the application is functional and capable of generating text summaries. However, there may be limitations and areas for improvement. We are continuously working on enhancing the summarization algorithm, improving the user interface, and addressing any issues that may arise.
+
+## Future Updates
+
+We have plans to implement the following updates in future versions of the app:
+
+- Enhanced summarization algorithm for more accurate and coherent summaries
+- Improved user interface and user experience
+- Additional features, such as language support and customization options
+- Bug fixes and performance optimizations
+- integarte with private gpt to allow user to ask queries from documents ,research papers etc.
+
+
+
